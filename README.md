@@ -36,12 +36,21 @@ Você deverá criar uma aplicação com dois ambientes:
   - Cadastro de usuários, definindo a role (admin/cliente).
   - Login com geração de token JWT.
   - Validação de token para acesso aos endpoints protegidos.
+  - Entidade: 
+    - Nome
+    - Email
+    - Senha
+    - Permissão/Cargo
 
 - **Endpoints para Produtos:**
   - CRUD completo para produtos.
   - Restrições de acesso:
     - Apenas usuários **admin** podem criar, editar e excluir produtos.
     - Todos os usuários autenticados podem visualizar os produtos.
+  - Entidade: 
+    - Nome
+    - Descrição
+    - Valor
 
 - **Tecnologias e Ferramentas:**
   - Node.js com Express.
